@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="link">
+        <a href="http://unblast.com/color-schemes">http://unblast.com/color-schemes</a>
+    </string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="القرآن">القرآن</string>
+    <string name="الأحاديث">الأحاديث</string>
+    <string name="التسبيح">التسبيح</string>
+    <string name="الراديو">الراديو</string>
+    <string name="Name">Name</string>
+    <array name="AlAzkar">
+        <item>سبحان الله</item>
+        <item>الحمد لله</item>
+        <item>الله اكبر</item>
+        <item> لا اله الا الله</item>
+    </array>
+
+</resources>
