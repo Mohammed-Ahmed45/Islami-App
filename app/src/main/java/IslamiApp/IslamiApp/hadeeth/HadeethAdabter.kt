@@ -2,10 +2,7 @@ package IslamiApp.IslamiApp.hadeeth
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.AdapterView.OnItemClickListener
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.mohamed.myapplication.R
 import com.mohamed.myapplication.databinding.QuranItemsBinding
 
 class HadeethAdabter(val hadeethList:List<HadeethContant>):RecyclerView.Adapter<HadeethAdabter.HadeethViewHolder>()
@@ -37,9 +34,9 @@ class HadeethAdabter(val hadeethList:List<HadeethContant>):RecyclerView.Adapter<
 
 
     }
-    var onIteamClickListener:OnItemClickListener?=null
+    var onIteamClickListener: OnItemClickListener?=null
     fun interface OnItemClickListener{
-        fun OnClcik(position: Int,Hadeth:HadeethContant)
+        fun OnClcik(position: Int,Hadeth: HadeethContant)
     }
 
 //    var onItemClickListener:OnItemClickListener?=null

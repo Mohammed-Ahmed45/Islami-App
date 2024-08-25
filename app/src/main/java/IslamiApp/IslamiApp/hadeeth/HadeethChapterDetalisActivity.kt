@@ -1,7 +1,6 @@
 package IslamiApp.IslamiApp.hadeeth
 
-import ConatctApp.Contact
-import ConatctApp.utils.Constans
+
 import android.os.Bundle
 import android.util.Log
 import android.widget.TextView

@@ -2,4 +2,14 @@
 
 <resources>
     <color name="conter_color">@color/dark_blue</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purble">#3D246C</color>
+    <color name="transparent">#00000000</color>
+    <color name="Primary">#673AB7</color>
+    <color name="gold">#141A2E</color>
+    <color name="dark_blue">#141A2E</color>
+    <color name="gold_2">#705226</color>
+    <color name="gold_3">#FACC1D</color>
+
 </resources>

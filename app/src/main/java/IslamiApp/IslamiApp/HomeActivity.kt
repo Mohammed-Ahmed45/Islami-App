@@ -4,7 +4,10 @@ import IslamiApp.IslamiApp.hadeeth.HadeethFragment
 import IslamiApp.IslamiApp.quran.QuranFragment
 import IslamiApp.IslamiApp.radio.RadioFragment
 import IslamiApp.IslamiApp.tasbeh.TasbehFragment
+import android.content.SharedPreferences
+import android.content.SharedPreferences.Editor
 import android.os.Bundle
+import android.widget.Switch
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -14,7 +17,10 @@ class HomeActivity : AppCompatActivity() {
 
 
     lateinit var bottomNav:BottomNavigationView
-
+    lateinit var switcher:Switch
+    val nightmode:Boolean = false
+    lateinit var sharedPreferences:SharedPreferences
+    lateinit var Editor:SharedPreferences.Editor
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
