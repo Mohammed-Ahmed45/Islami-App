@@ -4,8 +4,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="IslamiApp.IslamiApp.hadeeth.HadeethFragment"
-    tools:background="@drawable/bg_islami"
-    >
+    tools:background="@drawable/bg_islami">
 
 
     <ImageView

@@ -136,15 +136,13 @@ class QuranFragment : Fragment() {
         return binding.root
     }
 
-
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initView(view)
     }
 
     var Adabter=SuraRecyclerAdabter(suraList)
-//    var Adabter=SuraRecyclerAdabter(suraList)
+
 
     private fun initView(view: View) {
         binding.rvQuran.adapter=Adabter
@@ -153,10 +151,6 @@ class QuranFragment : Fragment() {
             strartQuranChapter(position,title)
 
         }
-//        binding.rvQuran.adapter=Adabter
-//        Adabter.onItemClickListener= SuraRecyclerAdabter.OnItemClickListener {
-//        position, title ->
-//        startQuranChapter(position,title)
 
         }
 
@@ -168,26 +162,6 @@ class QuranFragment : Fragment() {
         startActivity(intent)
     }
 
-
-//       recyclerView=view.findViewById(R.id.rv_quran)
-//        rv_Adabter= SuraRecyclerAdabter(suraList)
-//        recyclerView.adapter=rv_Adabter
-
-
-
-//    private fun startQuranChapter(position: Int, title: String)
-//    {
-//        var intent=Intent(context,QuranChapterActivity::class.java)
-//        intent.putExtra(QuranChapterActivity.Extra_position,position)
-//
-////        intent.putExtra(QuranChapterActivity.Extra_position,position)
-////        intent.putExtra(QuranChapterActivity.Extra_title,title)
-//        startActivity(intent)
-
-
-
 }
 
-//private fun intView() {
-//    recyclerView=findViewById(R.id.rv_quran)
-//    rv_Adabter=SuraRecyclerAdabter(contactlist)
+

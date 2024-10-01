@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Islami-App</string>
     <string name="link">
         <a href="http://unblast.com/color-schemes">http://unblast.com/color-schemes</a>
     </string>
@@ -10,6 +10,7 @@
     <string name="التسبيح">التسبيح</string>
     <string name="الراديو">الراديو</string>
     <string name="Name">Name</string>
+    <string name="delete">delete</string>
     <array name="AlAzkar">
         <item>سبحان الله</item>
         <item>الحمد لله</item>
